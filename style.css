@@ -1,0 +1,37 @@
+body{
+    background: conic-gradient(yellow,green,red,orange,blue,purple,violet,black,brown,cyan,darkblue,teal,darkslategrey,grey,darkgrey,pink,maroon,darkgreen,aquamarine,lightgreen,darkred,orangered,gold,silver,white,ghostwhite,navy,chartreuse,chocolate,blanchedalmond,burlywood,darkcyan,crimson,darkorange,darkorchid,darkgrey,darkturquoise,beige,azure,deeppink,magenta,khaki,indianred,indigo,ivory,honeydew,hotpink,darkkhaki,dodgerblue,darkolivegreen,antiquewhite,aliceblue,gainsboro,peru,plum,powderblue,rebeccapurple,lightsalmon,darkslateblue,darkgoldenrod);
+}
+
+p{
+    background-color:chartreuse ;
+    color:black;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 40px;
+    background-color:dodgerblue;
+    color: gainsboro;
+}
+
+#show_sketches{
+    float: right;
+}
+
+canvas {
+    border: 5px black inherit;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 30px;
+    animation-iteration-count: infinite;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 50px darkslateblue;}
+    to{box-shadow: 1px 1px 50px darkslategray;}
+}
